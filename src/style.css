@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    background-color:#e6b084;;
+}
+
+.cofCoffee_title {
+    width:15px;
+    margin: 50px;
+    font-size: 50px;
+    font-family: monospace;
+    text-decoration: underline;
+    text-decoration-color: cornsilk;
+}
+
+.project_title {
+    width:auto;
+    margin: 60px;
+    font-size: 30px;
+    font-family: monospace;
+    padding: 15px;
+    height:10px;
+    margin-top: 5%;
+}
+
+.welcomeWindow {
+    justify-content: flex-start;
+}
+
+.episodes {
+    display:flex;
+    justify-content: flex-end;
+    justify-content: space-between;
+    list-style:none;
+    margin-top: -23%;
+    margin-bottom:20%;
+    margin-left:43%;
+    font-family:monospace;
+    font-size:20px;
+    cursor:pointer;
+    background-color: #e6b084 !important;
+}
+
+.episodes a:hover {
+    text-decoration:line-through brown;
+    color:lemonchiffon;
+}
+
+.coffee_welcome {
+    font-family:monospace;
+    font-size:18px;
+    width:auto;
+    height:10px;
+    margin: 60px;
+    padding:15px;
+    font-weight: bold;
+    color:black;
+}
+
+.select_element {
+    font-family:monospace;
+    font-size: 18px;
+    width:auto;
+    height:10%;
+    display:flex;
+    margin-top:10%;
+}
+
+.coffeeImages {
+    list-style: none;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    justify-content: space-between;
+    margin-top:15%;
+    margin-right:10px;
+    cursor:pointer;
+}
+
+.coffee_tablesIntro, .french_pressIntro {
+    margin-top:10%;
+}
+
+#check1, #check2, #check3, #check4 {
+    cursor:pointer;
+    border-radius: 8px;
+    width:20px;
+}
+
+.inputNext {
+    border-width:2px;
+    display:flex;
+    justify-content: flex-end;
+    margin-top:90%;
+    margin-right:10%;
+}
+.next {
+    background-color:lemonchiffon;
+    width:20%;
+    font-size: 20px;
+    border-width: 2px;
+    font-family: monospace;
+    font-weight: bold;
+    display:flex;
+    justify-content: center;
+    border-radius: 8px;
+    cursor:pointer;
+}
+
+.next:hover {
+    background:brown;
+}
+
+.next:active {
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+
+.cardValidation {
+    font-size: 20px;
+    font-family: monospace;
+    display:block;
+    justify-content: center;
+    padding:15px;
+    background-color:brown;
+    border-radius: 12px;
+    margin-top: 5%;
+    color:cornsilk;
+}
+
+.cardValidation form {
+    margin-top:5%;
+    background-color:brown;
+}
+
+.cardValidation input {
+    background-color:brown;
+    color: cornsilk;
+    font-family: monospace;
+    font-size:16px;
+}
+
+.cardValidation label {
+    background-color:brown;
+}
+
+.pleaseTheData {
+    width:auto;
+    height:10px;
+    font-size: 18px;
+    font-family: monospace;
+    display:flex;
+    position:relative;
+    background-color: brown;
+    color:cornsilk;
+
+}
+
+.inputValidate {
+    background-color: brown;
+    display:flex;
+    justify-content: center;
+}
+
+
+.validate {
+    background-color:lemonchiffon !important;
+    width:15%;
+    height:12%;
+    font-size: 40px;
+    border-width: 2px;
+    font-family: monospace;
+    font-weight: bold;
+    display:flex;
+    justify-content: center;
+    border-radius: 8px;
+    cursor:pointer;
+    color:black !important;
+}
+
+.validate:active {
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+input {
+    border: none;
+    border-bottom: solid 1px lemonchiffon; 
+    width:30%;
+}
+
+.user_validDate, .user_vcc {
+    width:15%;
+}
+
+footer {
+    font-size: 18px;
+    font-family:monospace;
+    padding:30px;
+}
+
+.contact {
+    font-size:15px;
+    list-style-type: none;
+    display:flex;
+    justify-items: space-bewtween;
+    margin-top:30px;
+    flex-direction: column;
+    font-weight: bold;
+}
+
+#balloon, #mail {
+    display:flex;
+    justify-content: flex-end;
+    margin:20px;
+}
+
+
