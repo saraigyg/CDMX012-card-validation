@@ -22,8 +22,7 @@
         </nav>
     </header>
             <!---------------------Welcome-------------------->
-    <div id="firstWindow">
-            <main>
+    <main id="firstWindow">
         <section class="coffee_welcome">
             <p1 class="welcome"> Welcome! In this page you will find everything you need for your coffee shop. </p1>
         <!-----------------------Select elements please------->
@@ -53,43 +52,43 @@
             </ul>
         </section>
         <section class="inputNext">
-            <button class="next" onclick="next()">Next<br>
+            <button class="next" onClick="myNext()">>></button>
         </section>
-    </div>   
+    </main>   
         <!---------------------------------------------------------------------------
         --------------------------------------------------------------------------->
-    <div id="secondWindow">
+    <main id="secondWindow">
         <section class="cardValidation">
             <span class="pleaseTheData">Please, complete the following data from your credit card</span><br>
         <!-------------input Card number------------------------>
             <form>
                 <label for="cardNumber">Credit Card Number:</label><br>
-                <input id="user_cardNumber" type="text" value="" onkeypress="numbersOnly"></input>
+                <input id="user_cardNumber" type="text" value="">
+                <p id="kitty"></p>
             </form>
-        <!-------------Name on card---------------------------->
+        <!-------------------button validate card--------------->
+        <section class="inputValidate">    
+            <input class="validate" id="buttonValidate" type="button" value="Validate">
+            <p id="isValid"></p>     
+        </section>
+            <!-------------Name on card---------------------------->
             <form>
                 <label for="nameOnCard">Name on Card:</label><br>
-                <input class="userName_onCard" type="text" value=""></input>
+                <input class="userName_onCard" type="text" value="">
             </form>    
         <!-------------Card validation date------------------->
             <form>
                 <label for="validDate">Valid until:</label><br>
-                <input class="user_validDate" type="text" value=""></input>
+                <input class="user_validDate" type="text" value="">
             </form>    
         <!------------------Virtual Credit Card---------------->
             <form class="vcc">
                 <label for="vcc">VCC:</label><br>
-                <input class="user_vcc" type="text" value=""></input>
+                <input class="user_vcc" type="text" value="">
             </form>                
-        <!-------------------button validate card--------------->
-            <section class="inputValidate">    
-                <input class="validate" type="button" value="Validate" onclick="validation()">      
-            </section>
         </section>
-    </div>
     </main>
-    <footer>
-        <section class="footer">
+    <footer class="footer">
         <!---icons------->
         <!---contact us----->
             <nav class="contactUs">Contact Us
