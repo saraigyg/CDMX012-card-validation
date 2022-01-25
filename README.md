@@ -252,7 +252,23 @@ Estos puntos los presentarás en el `README.md`.
 #### General
 
 ##### `README.md`
+COFCOFFEE
 
+Mi proyecto trata de que los usuarios puedan validar su tarjeta a partir de una tienda especializada en elementos de cafetería como ejemplo.
+![image](https://user-images.githubusercontent.com/89472496/150901249-df54274e-50df-480c-ba31-957ca53c9f37.png)
+
+Para pensar en mis usuarios, primero pensé en que debería haber una necesidad de producto para las personas que van a instalar una cafetería o usuarios que quieran tener algún objeto de cafetería en casa y que se pueda encontrar en una sola tienda cuyo objetivo trata de ello justamente, de elementos de cafetería (e.g. máquina de café, tipo de muebles típicos, prensa francesa, tazas de café) sin tener que buscar en páginas independientes cada elemento ignorando quizá la calidad del producto.
+
+Para diseñar mi producto quise ocupar dos ventanas, siendo la primera ventana la presentación de quiénes somos e imágenes de productos que pueden encontrar; en la segunda ventana le pide al usuario sus datos de tarjeta para poderla validar y hasta abajo las formas de contacto del lugar. 
+
+Prototipo en figma aquí: https://www.figma.com/file/Ar1x5fDTtnnfIP1lzSJa2F/Prototipo-Credit-Card-Validation?node-id=0%3A1
+
+El feedback de mejora de este prototipo fue que debía indicarle al usuario el favor de llenar los campos solicitados para validar su tarjeta.  
+
+Nuevamente aquí se encuentra la propuesta:
+![image](https://user-images.githubusercontent.com/89472496/150901249-df54274e-50df-480c-ba31-957ca53c9f37.png)
+
+##############################################################################
 Debe contener lo siguiente:
 
 * Un título con el nombre de tu proyecto.
