@@ -1,6 +1,6 @@
 /****function button validate *****/
 const validator = {
- myFunction: function cardValidation_isValid (array) {
+ isValid: function isValid (array) {
    //pasar de un objeto tipo string a un arreglo separado por comas y guardarlo en una variable n 
    if (array == 0) {
      return "Please, insert a card number";
@@ -38,7 +38,7 @@ const validator = {
    }
   },
   //para insertar el # en todo el arreglo menos en los últimos cuatro dígitos 
-  myFunctionTwo: function validator_maskify (mask) {
+  maskify: function maskify (mask) {
   //el objeto tipo arreglo insertado cambiarlo a string [" "] y éste será remplazado con aserción anticipada que reemplace los últimos 4 con #
     let maskify = mask.toString().replace(/.(?=.{4})/g, "#"); 
     return (maskify);

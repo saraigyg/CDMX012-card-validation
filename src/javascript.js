@@ -1,4 +1,4 @@
-const estuche = {
+/*const estuche = {
     color: "rojo",
     medidas: {
         longitud:25,
@@ -10,4 +10,4 @@ const estuche = {
     relleno:false,
 }
 
-console.log(estuche.medidas);
+console.log(estuche.medidas);*/
