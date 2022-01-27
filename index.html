@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Tarjeta de crédito válida</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+        <!-------------------Project Title---------------> 
+        <section class="welcomeWindow">
+            <h1 class="cofCoffee_title">CofCoffee</h1>
+            <h2 class="project_title">Essential Coffee Shop Elements</h2>
+        </section>
+            <!-------------------Project episodes------------->
+        <nav class="coffee_episodes">
+            <ul class="episodes">
+                    <a><li class="whoAreWe">Who are we?</li></a>
+                    <a><li class="coffeeElements">Coffee Shop Elements</li></a>
+                    <a><li class="contactUs">Contact Us</li></a>
+            </ul>
+        </nav>
+    </header>
+            <!---------------------Welcome-------------------->
+    <main id="firstWindow">
+        <section class="coffee_welcome">
+            <p1 class="welcome"> Welcome! In this page you will find everything you need for your coffee shop. </p1>
+        <!-----------------------Select elements please------->
+            <p2 class="select_element">Please, select your preferable elements that you would like to buy with us:</p2>
+        <!-----------------------Coffee elements ----------->
+            <ul class="coffeeImages">
+                <a><li>
+                    <h3 class="coffee_machineIntro">Coffee Machine $17.99</h3>
+                    <img class="coffee_machine" src="https://sonic-images.imgix.net/XL/SK22110BN.jpg?auto=format" width="200">
+                    <input id="check1" type="checkbox">
+                </li></a>
+                <a><li>
+                    <h3 class="coffe_cupsIntro">Coffee Cups $9.99</h3>
+                    <img class="coffee_cups" src="https://ii1.pepperfry.com/media/catalog/product/c/d/800x880/cdi-black-matt-finish-coffee-mugs---set-of-6--cdi-black-matt-finish-coffee-mugs---set-of-6--2i0e7h.jpg" width="200">
+                    <input id="check2" type="checkbox">
+                </li></a>
+                <a><li>
+                    <h3 class="coffee_tablesIntro">Coffee Furniture $50.99</h3>
+                    <img class="coffee_tables" src="https://i.pinimg.com/originals/2e/00/4c/2e004cfe3420d36e6a535658f68a3a65.jpg" width="180">
+                    <input id="check3" type="checkbox">
+                </li></a>
+                <a><li>
+                    <h3 class="french_pressIntro">French Press $5.99</h3>
+                    <img class="french_press" src="https://www.acouplecooks.com/wp-content/uploads/2021/08/French-Press-Coffee-008.jpg" width="210">
+                    <input id="check4" type="checkbox">
+                </li></a>
+            </ul>
+        </section>
+        <section class="inputNext">
+            <button class="next" onClick="myNext()"> ... </button>
+        </section>
+    </main>   
+        <!---------------------------------------------------------------------------
+        --------------------------------------------------------------------------->
+    <main id="secondWindow">
+        <section class="cardValidation">
+            <span class="pleaseTheData">Please, complete the following data from your credit card</span><br>
+        <!-------------input Card number------------------------>
+            <form>
+                <label for="cardNumber">Credit Card Number:</label><br>
+                <input id="user_cardNumber" type="text" value="">
+                <p id="kitty"></p>
+            </form>
+        <!-------------------button validate card--------------->
+        <section class="inputValidate">    
+            <input class="validate" id="buttonValidate" type="button" value="Validate">
+            <p id="isValid"></p>     
+        </section>
+            <!-------------Name on card---------------------------->
+            <form>
+                <label for="nameOnCard">Name on Card:</label><br>
+                <input class="userName_onCard" type="text" value="">
+            </form>    
+        <!-------------Card validation date------------------->
+            <form>
+                <label for="validDate">Valid until:</label><br>
+                <input class="user_validDate" type="text" value="">
+            </form>    
+        <!------------------Virtual Credit Card---------------->
+            <form class="vcc">
+                <label for="vcc">VCC:</label><br>
+                <input class="user_vcc" type="text" value="">
+            </form>                
+        </section>
+    </main>
+    <footer class="footer">
+        <!---icons------->
+        <!---contact us----->
+            <nav class="contactUs">Contact Us
+                <ul class="contact">
+                
+                    <li class="callUs">Give us a call:37985671</li>
+                    <li>
+                        <img id="mail" src="https://img.icons8.com/external-line-icons-royyan-wijaya/64/000000/external-communicate-communication-trek-dum-line-line-icons-royyan-wijaya-23.png" alt="mail envelope"/>
+                        <span class="emailUs">Send us an email at: </span>
+                        <span class="email">people@cofcoffee.com</span>
+                    </li>
+                    <li>
+                        <img id="balloon" src="https://img.icons8.com/ios/50/000000/marker--v1.png" alt="balloon location"/>
+                        <span class="comeSeeUs">Come see us:</span><br>
+                        <span class="address">309 Schaumburg Rd, Wyoming, USA, 37405</span>
+                        <a href="https://icons8.com/icon/3723/location"></a>
+                    </li>
+                </ul>
+            </nav>
+    </footer>
+    <script src="index.js" type="module"></script>
+  </body>
+</html>
