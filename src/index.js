@@ -10,7 +10,12 @@ import validator from './validator.js';
 let buttonVal = document.getElementById("buttonValidate"); 
 buttonVal.addEventListener("click", function() {
   let validate = validator.isValid(document.getElementById("user_cardNumber").value);
-  (document.getElementById("isValid").innerHTML)=validate;
+  if (validate === true) {
+    document.getElementById("isValid").innerHTML = `<h3>Valid Card Number</h3>`
+  } else {
+    document.getElementById("isValid").innerHTML = `<h3>Invalid Card Number</h3>`
+  }
+  //(document.getElementById("isValid").innerHTML)=validate;
   let maskify = validator.maskify(document.getElementById("user_cardNumber").value); 
   (document.getElementById("kitty").innerHTML)=maskify;
 });

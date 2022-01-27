@@ -25,17 +25,20 @@ const validator = {
      } 
      //suma total o reducción a un solo valor de todo el arreglo x incluyendo los nuevos números del paso anterior y guardo en una variable 
    } let total = x.reduce((a,b) => a + b, 0);
+    let valid = false;
    //si el valor de la suma total es múltiplo de 10
-    if (total % 10 === 0) {
+   //if (total % 10 === 0) {
   //imprime valid card
-    return "Valid Card Number"; 
+   // return true
   //console.log("Valid Card Number");
-   } 
+  // } 
   //imprime invalid card al no ser múltiplo de 10 
-      else {
-     return "Invalid Card Number";
+    //  else {
+     //   return false
         //console.log("Invalid Card Number");
-   }
+  // } 
+   total % 10 === 0 ? (valid=true) : (valid=false);
+   return valid;
   },
   //para insertar el # en todo el arreglo menos en los últimos cuatro dígitos 
   maskify: function maskify (mask) {
